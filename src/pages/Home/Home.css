@@ -1,0 +1,36 @@
+.title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.signs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stop{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 170px;
+    cursor: pointer;
+}
+.ready{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 170px;
+    cursor: pointer;
+}
+.go{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 170px;
+    cursor: pointer;
+}
