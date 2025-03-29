@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import { useNavigate } from 'react-router-dom';
+import Title from '../../components/Title/Title';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -15,8 +16,7 @@ const Home = () => {
 
     return (
       <div className="App">
-        
-        <h1 className="title">Traffic Light App</h1>
+        <Title title="Traffic Light App - Home Page" />
 
         <div className="signs">
             <div className="stop" onClick={() => action("Stop", "red")}></div>
