@@ -15,6 +15,7 @@ const Home = () => {
 
     return (
       <div className="App">
+        
         <h1 className="title">Traffic Light App</h1>
 
         <div className="signs">
